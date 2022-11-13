@@ -34,18 +34,12 @@
                             <li class="list-inline-item">
                                 <a class="h3 text-dark text-decoration-none mr-3" href="{{ route('admin.produk.create') }}">Tambah Produk</a>
                             </li>
-                            {{-- <li class="list-inline-item">
-                                <a class="h3 text-dark text-decoration-none mr-3" href="#">Men's</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="h3 text-dark text-decoration-none" href="#">Women's</a>
-                            </li> --}}
                         </ul>
                     </div>
 
                     <div class="col-md-6 pb-4">
                         <div class="d-flex float-right">
-                           <h3>Koleksi {{ $kategori }}</h3>
+                           <h3>Koleksi {{ $ }}</h3>
                         </div>
                     </div>
 
