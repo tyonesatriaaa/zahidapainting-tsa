@@ -94,126 +94,45 @@
     </div>
     <!-- End Content -->
 
-    <!-- Start Brands -->
-    <section class="bg-light py-1">
-        <div class="container my-4">
-            <div class="row text-center py-3">
-                <div class="col-lg-6 m-auto">
-                    <h1 class="h1">Product Kami</h1>
 
-                </div>
-                <div class="col-lg-9 m-auto tempaltemo-carousel">
-                    <div class="row d-flex flex-row">
-                        <!--Controls-->
-                        <div class="col-1 align-self-center">
-                            <a class="h1" href="#multi-item-example" role="button" data-bs-slide="prev">
-                                <i class="text-light fas fa-chevron-left"></i>
-                            </a>
-                        </div>
-                        <!--End Controls-->
-
-                        <!--Carousel Wrapper-->
-                        <div class="col">
-                            <div class="carousel slide carousel-multi-item pt-1 pt-md-0" id="multi-item-example" data-bs-ride="carousel">
-                                <!--Slides-->
-                                <div class="carousel-inner product-links-wap" role="listbox">
-
-                                    <!--First slide-->
-                                    <div class="carousel-item active">
-                                        <div class="row">
-                                            <div class="col-4 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assesthome/img/kitchen.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-4 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assesthome/img/bed-room.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-4 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assesthome/img/toilet.png" alt="Brand Logo"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End First slide-->
-
-                                    <!--Second slide-->
-                                    <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="col-4 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assesthome/img/office-room.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-4 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assesthome/img/living-room.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-4 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assesthome/img/cafe.png" alt="Brand Logo"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Second slide-->
-
-                                </div>
-                                <!--End Slides-->
-                            </div>
-                        </div>
-                        <!--End Carousel Wrapper-->
-
-                        <!--Controls-->
-                        <div class="col-1 align-self-center">
-                            <a class="h1" href="#multi-item-example" role="button" data-bs-slide="next">
-                                <i class="text-light fas fa-chevron-right"></i>
-                            </a>
-                        </div>
-                        <!--End Controls-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Brands-->
-
-
-    <!-- Start Footer -->
+                       
     <footer class="bg-dark" id="tempaltemo_footer">
         <div class="container">
             <div class="row">
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Kms. Furniture</h2>
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Zahida Painting</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <i class="fas fa-map-marker-alt fa-fw"></i>
-                            Jl. Untung Suropati No.92, Klangon, Kec. Bojonegoro, Kabupaten Bojonegoro, Jawa Timur 62115
+                            Jl. Kh. Mansyur No.58, Ledok Kulon Tiga, Ledok Wetan, Kec. Bojonegoro, Kabupaten Bojonegoro, Jawa Timur 62112
                         </li>
                         <li>
                             <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none" href="tel:010-020-0340">0821-3112-5123</a>
+                            <a class="text-decoration-none" href="tel:0821-1112-8648">0821-1112-8648</a>
                         </li>
                         <li>
                             <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="mailto:info@company.com">Yudhaerian@gmail.com</a>
+                            <a class="text-decoration-none" href="mailto:zahidapainting01@gmail.com">zahidapainting01@gmail.com</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="col-md-4 pt-5">
-                    {{-- <h2 class="h2 text-light border-bottom pb-3 border-light">Info</h2>
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Kategori</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Tas dan Dompet</a></li>
+                        <li><a class="text-decoration-none" href="#">Dress</a></li>
+                        <li><a class="text-decoration-none" href="#">Kebaya</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Info</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li><a class="text-decoration-none" href="#">Home</a></li>
                         <li><a class="text-decoration-none" href="#">About Us</a></li>
                         <li><a class="text-decoration-none" href="#">FAQs</a></li>
-
-                    </ul> --}}
-                </div>
-
-                <div class="col-md-4 pt-5">
-
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Collection</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Kitchen</a></li>
-                        <li><a class="text-decoration-none" href="#">Living room</a></li>
-                        <li><a class="text-decoration-none" href="#">Bathroom</a></li>
-                        <li><a class="text-decoration-none" href="#">Cafe</a></li>
-                        <li><a class="text-decoration-none" href="#">Office</a></li>
-                         <li><a class="text-decoration-none" href="#">Bedroom</a></li>
 
                     </ul>
                 </div>
@@ -227,23 +146,22 @@
                 <div class="col-auto me-auto">
                     <ul class="list-inline text-left footer-icons">
                         <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.facebook.com/zahida.hidayah.31/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                         </li>
                         <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/zahida_painting/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
                         </li>
                         <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.tiktok.com/@zahidapainting_01"><i class="fab fa-tiktok fa-lg fa-fw"></i></a>
                         </li>
                         <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-whatsapp fa-lg fa-fw"></i></a>
+                            <a class="text-light text-decoration-none" target="_blank" href="http://wa.me/+6282111128648"><i class="fab fa-whatsapp fa-lg fa-fw"></i></a>
                         </li>
                     </ul>
                 </div>
 
             </div>
         </div>
-
 
 
     </footer>

@@ -44,10 +44,10 @@ Route::get('/ordercomplete', [App\Http\Controllers\CheckoutController::class, 'o
 
 //Kategori
 
-Route::get('/kebaya', 'HomeController@kursi')->name('kursi');
+Route::get('/dress', 'HomeController@dress')->name('dress');
 
-Route::get('/tasdandompet', 'HomeController@lemari')->name('lemari');
-Route::get('/dress', 'HomeController@meja')->name('meja');
+Route::get('/tasdandompet', 'HomeController@tasdandompet')->name('tasdandompet');
+Route::get('/kebaya', 'HomeController@kebaya')->name('kebaya');
 
 Route::get('/murah', 'HomeController@murah')->name('murah');
 Route::get('/mahal', 'HomeController@mahal')->name('mahal');

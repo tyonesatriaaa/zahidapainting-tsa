@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Zay Shop - Product Listing Page</title>
+    <title>Zahida Painting E-Catalogue</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -93,7 +93,7 @@ https://templatemo.com/tm-559-zay-shop
         <div class="container d-flex justify-content-between align-items-center">
 
             <a class="navbar-brand text-success logo h1 align-self-center" href="{{ route('home') }}">
-                Zahida Painting</a>
+                Zahida User</a>
 
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -102,22 +102,13 @@ https://templatemo.com/tm-559-zay-shop
             <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('home') }}">Home</a>
-                        </li>
 
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kategori</a>
                             <div class="dropdown-menu">
-                                <a href="{{ route('kursi') }}" class="dropdown-item">Kursi</a>
-                                <a href="{{ route('meja') }}" class="dropdown-item">Meja</a>
-                                <a href="{{ route('lemari') }}" class="dropdown-item">Lemari</a>
-                                <div class="dropdown-divider">Set</div>
-                                <a href="#"class="dropdown-item">Kitchen</a>
-                                <a href="#"class="dropdown-item">BathRoom</a>
-                                <a href="#"class="dropdown-item">Living Room</a>
-                                <a href="#"class="dropdown-item">Offfice</a>
-                                <a href="#"class="dropdown-item">Cafe</a>
+                                <a href="{{ route('tasdandompet') }}" class="dropdown-item">Tas Dan Dompet</a>
+                                <a href="{{ route('dress') }}" class="dropdown-item">Dress</a>
+                                <a href="{{ route('kebaya') }}" class="dropdown-item">Kebaya</a>
                             </div>
                         </li>
                         <li class="nav-item">
