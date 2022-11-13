@@ -177,7 +177,7 @@
 				                <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
 				                    <li class="scroll active"><a href="#home">Tentang Kami</a></li>
 				                    <li class="scroll"><a href="#new-arrivals">Katalog</a></li>
-									<li class="scroll"><a href="#new-arrivals">P</a></li>
+									<li class="scroll"><a href="#sofa-collection">Pelatihan</a></li>
 				                    <li class="scroll"><a href="#contact">Kontak</a></li>
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
