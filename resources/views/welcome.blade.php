@@ -293,8 +293,8 @@
             <div class="container">
 
               <div class="section-title" data-aos="fade-up">
-                <h2>Contact</h2>
-                <p>Office KMS Furniture Location</p>
+                <h2>Konta Kami</h2>
+                <p>Lokasi Galeri Zahida Painting</p>
               </div>
 
               <div class="row no-gutters justify-content-center" data-aos="fade-up">
@@ -304,19 +304,19 @@
                     <div class="address">
                       <i class="icofont-google-map"></i>
                       <h4>Location:</h4>
-                      <p>Jl. Untung Suropati No.92, Klangon, Kec. Bojonegoro, Kabupaten Bojonegoro, Jawa Timur 62115</p>
+                      <p>Jl. Kh. Mansyur No.58, Ledok Kulon Tiga, Ledok Wetan, Kec. Bojonegoro, Kabupaten Bojonegoro, Jawa Timur 62112</p>
                     </div>
 
                     <div class="email mt-4">
                       <i class="icofont-envelope"></i>
                       <h4>Email:</h4>
-                      <p>Yudhaerian@gmail.com</p>
+                      <p>zahidapainting01@gmail.com</p>
                     </div>
 
                     <div class="phone mt-4">
                       <i class="icofont-phone"></i>
-                      <h4>Call:</h4>
-                      <p>0821-3112-5123</p>
+                      <h4>Whatsapp:</h4>
+                      <p>082111128648</p>
                     </div>
 
                 </div>
@@ -324,7 +324,7 @@
                 </div>
 
                 <div class="col-lg-6 d-flex align-items-stretch">
-                  <iframe style="border:0; width: 100%; height: 320px;" src="https://maps.google.com/maps?q=KMS%20INTERIOR%20BOJONEGORO&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
+                  <iframe style="border:0; width: 100%; height: 320px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15835.31445568961!2d111.8779586!3d-7.1458074!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77821f21074933%3A0x8c0c6aa573298ba1!2sZahida!5e0!3m2!1sid!2sid!4v1668341983623!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0" allowfullscreen></iframe>
 
                 </div>
 
