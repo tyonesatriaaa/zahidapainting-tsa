@@ -14,7 +14,7 @@
                         <div class="col-sm-10 offset-sm-1 text-center">
 
                             <h2 class="mb-4">Jumlah Down Payment yang harus dibayarkan : <strong class='money'>{{ $order->down_payment }}</strong></h2>
-                            <h2 class="mb-4">No Rekening BCA <strong> 00289119 </strong> A/N KMS Furniture</h2>
+                            <h2 class="mb-4">No Rekening BCA <strong> 00289119 </strong> A/N Siti Nur Hidayah</h2>
 
                         </div>
                     </div>

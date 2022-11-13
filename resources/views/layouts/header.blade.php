@@ -22,7 +22,7 @@
   <link href="{{ asset('bootstrap/css/util.css') }}" rel="stylesheet">
   <link href="{{ asset('bootstrap/css/main.css') }}" rel="stylesheet">
 
-  <title>KMS</title>
+  <title>Zahida Painting E-Catalogue</title>
 </head>
 
 <body>
