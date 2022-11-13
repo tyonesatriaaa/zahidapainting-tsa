@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="login100-form-title" style="background-image: url(bootstrap/bg-01.jpg);">
 					<span style="font-size:18px; color:white; font-weight: bold;" class="login100-form-title-1">
-						Login
+						Login Admin
 					</span>
 				</div>
                 <div class="card-body">

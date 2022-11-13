@@ -22,14 +22,14 @@
   <link href="{{ asset('bootstrap/css/util.css') }}" rel="stylesheet">
   <link href="{{ asset('bootstrap/css/main.css') }}" rel="stylesheet">
 
-  <title>KMS</title>
+  <title>Zahida Painting</title>
 </head>
 
 <body>
 
 
   <nav class="navbar navbar-expand-lg navbar-default">
-    <a class="navbar-brand logo-navbar" href="#" style="font-size: 40px; margin-left:40px;">KMS.
+    <a class="navbar-brand logo-navbar" href="#" style="font-size: 40px; margin-left:40px;">Zahida Painting.
         {{-- <img src="{{asset('bootstrap/sibahome.png')}}" width="150" height="40" class="d-inline-block align-top" alt=""> --}}
 
   </a>

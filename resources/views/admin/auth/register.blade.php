@@ -8,7 +8,7 @@
             <div class="card">
                 <div class="login100-form-title" style="background-image: url(bootstrap/bg-03.jpg);">
 					<span class="login100-form-title-1">
-						Register
+						Register Admin
 					</span>
 				</div>
                 <div class="card-body">
