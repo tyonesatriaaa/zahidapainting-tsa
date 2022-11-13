@@ -62,33 +62,21 @@ https://templatemo.com/tm-559-zay-shop
     <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container d-flex justify-content-between align-items-center">
 
-            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
-                Zahida Painting.
+        <a class="navbar-brand text-success logo h1 align-self-center" href="{{ route('admin.home') }}">
+                Zahida Admin
             </a>
 
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
-                <div class="flex-fill">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('admin.home') }}">Home</a>
-                        </li>
 
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kategori</a>
                             <div class="dropdown-menu">
-                                <a href="{{ route('admin.kursi') }}" class="dropdown-item">Kursi</a>
-                                <a href="{{ route('admin.meja') }}" class="dropdown-item">Meja</a>
-                                <a href="{{ route('admin.lemari') }}" class="dropdown-item">Lemari</a>
-                                <div class="dropdown-divider">Set</div>
-                                <a href="#"class="dropdown-item">Kitchen</a>
-                                <a href="#"class="dropdown-item">BathRoom</a>
-                                <a href="#"class="dropdown-item">Living Room</a>
-                                <a href="#"class="dropdown-item">Offfice</a>
-                                <a href="#"class="dropdown-item">Cafe</a>
+                                <a href="{{ route('admin.kebaya') }}" class="dropdown-item">Kebaya</a>
+                                <a href="{{ route('admin.dress') }}" class="dropdown-item">Dress</a>
+                                <a href="{{ route('admin.tasdandompet') }}" class="dropdown-item">Tas dan dompet</a>
                             </div>
                         </li>
                         <li class="nav-item">

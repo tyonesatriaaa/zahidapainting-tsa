@@ -44,10 +44,10 @@ Route::get('/ordercomplete', [App\Http\Controllers\CheckoutController::class, 'o
 
 //Kategori
 
-Route::get('/kursi', 'HomeController@kursi')->name('kursi');
+Route::get('/kebaya', 'HomeController@kursi')->name('kursi');
 
-Route::get('/lemari', 'HomeController@lemari')->name('lemari');
-Route::get('/meja', 'HomeController@meja')->name('meja');
+Route::get('/tasdandompet', 'HomeController@lemari')->name('lemari');
+Route::get('/dress', 'HomeController@meja')->name('meja');
 
 Route::get('/murah', 'HomeController@murah')->name('murah');
 Route::get('/mahal', 'HomeController@mahal')->name('mahal');
@@ -90,10 +90,10 @@ Route::group(['prefix' => '/admin', 'namespace' => 'Admin', 'as' => 'admin.'], f
     Route::resource('penjualan', PenjualanController::class);
 
 
-    Route::get('/kursi', 'HomeController@kursi')->name('kursi');
+    Route::get('/dress', 'HomeController@dress')->name('dress');
 
-    Route::get('/lemari', 'HomeController@lemari')->name('lemari');
-    Route::get('/meja', 'HomeController@meja')->name('meja');
+    Route::get('/tasdandompet', 'HomeController@tasdandompet')->name('tasdandompet');
+    Route::get('/kebaya', 'HomeController@kebaya')->name('kebaya');
 
     Route::get('/murah', 'HomeController@murah')->name('murah');
     Route::get('/mahal', 'HomeController@mahal')->name('mahal');

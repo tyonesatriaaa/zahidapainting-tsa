@@ -32,14 +32,8 @@
                     <div class="col-md-6">
                         <ul class="list-inline shop-top-menu pb-3 pt-1">
                             <li class="list-inline-item">
-                                <a class="h3 text-dark text-decoration-none mr-3" href="{{ route('admin.produk.create') }}">Tambah Produk</a>
+                                <button class="btn-cart welcome-add-cart" onclick="window.location.href='{{ route('admin.produk.create') }}'">Tambah Produk</button>
                             </li>
-                            {{-- <li class="list-inline-item">
-                                <a class="h3 text-dark text-decoration-none mr-3" href="#">Men's</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="h3 text-dark text-decoration-none" href="#">Women's</a>
-                            </li> --}}
                         </ul>
                     </div>
                     <div class="col-md-6 pb-4">
@@ -124,21 +118,17 @@
                         </li>
                         <li>
                             <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="mailto:info@company.com">zahidapainting01@gmail.com</a>
+                            <a class="text-decoration-none" href="mailto:zahidapainting01@gmail.com">zahidapainting01@gmail.com</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Collection</h2>
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Kategori</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Kitchen</a></li>
-                        <li><a class="text-decoration-none" href="#">Living room</a></li>
-                        <li><a class="text-decoration-none" href="#">Bathroom</a></li>
-                        <li><a class="text-decoration-none" href="#">Cafe</a></li>
-                        <li><a class="text-decoration-none" href="#">Office</a></li>
-                         <li><a class="text-decoration-none" href="#">Bedroom</a></li>
-
+                        <li><a class="text-decoration-none" href="#">Tas dan Dompet</a></li>
+                        <li><a class="text-decoration-none" href="#">Dress</a></li>
+                        <li><a class="text-decoration-none" href="#">Kebaya</a></li>
                     </ul>
                 </div>
 

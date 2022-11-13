@@ -68,66 +68,35 @@
 
 		<!--welcome-hero start -->
 		<header id="home" class="welcome-hero">
-
-			<div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-				<!--/.carousel-indicator -->
-
-				<!--/.carousel-indicator -->
-
-				<!--/.carousel-inner -->
-				<div class="carousel-inner" role="listbox">
 					<!-- .item -->
-
-                    @foreach ($product as $produk)
-
-					<div class="item active">
-						<div class="single-slide-item slide1">
 							<div class="container">
-								<div class="welcome-hero-content">
-									<div class="row">
-
+								<!-- gambar -->
 										<div class="col-sm-7">
+								<!-- /gambar -->
 											<div class="single-welcome-hero">
 												<div class="welcome-hero-txt">
-													<h4>New Product Available</h4>
-													<h2>{{ $produk->name }}</h2>
+													<h4>Tentang kami</h4>
+													<h2>Zahida Painting</h2>
 													<p>
-														{{ $produk->deskripsi }}
+													Zahida didirikan mulai tanggal 27 November 2007, Zahida sendiri bergerak dibidang fashion Lukis, bermula dari hobby melukis yang kemudian dikreasikan di lukisan dengan media kain, sehingga menciptakan sebuah fashion yang indah dengan sentuhan lukisan tangan atau handmade.
 													</p>
-													<div class="packages-price">
-														<h2>
-															Rp. {{ $produk->price }}
-														</h2>
-													</div>
-													<button class="btn-cart welcome-add-cart" onclick="window.location.href='{{ route('detailproduk', $produk->id) }}'">
-														<span class="lnr lnr-plus-circle"></span>
-														add <span>to</span> cart
+													<button class="btn-cart welcome-add-cart" onclick="window.location.href='#new-arrivals'">
+														Lihat Katalog
 													</button>
-
 												</div><!--/.welcome-hero-txt-->
 											</div><!--/.single-welcome-hero-->
 										</div><!--/.col-->
 										<div class="col-sm-5">
 											<div class="single-welcome-hero">
 												<div class="welcome-hero-img">
-													<img src="{{asset('storage/img/'.$produk->image1)}}" alt="slider image">
+													<img src="assets/images/slider/slider1.png" alt="slider image">
 												</div><!--/.welcome-hero-txt-->
 											</div><!--/.single-welcome-hero-->
 										</div><!--/.col-->
-
 									</div><!--/.row-->
 								</div><!--/.welcome-hero-content-->
 							</div><!-- /.container-->
 						</div><!-- /.single-slide-item-->
-					</div><!-- /.item .active-->
-                    @endforeach
-
-
-
-					</div><!-- /.item .active-->
-				</div><!-- /.carousel-inner-->
-
-			</div><!--/#header-carousel-->
 
 			<!-- top-area Start -->
 			<div class="top-area">
@@ -152,9 +121,6 @@
 				            <div class="attr-nav">
 
 				                <ul>
-				                	<li>
-                                        <a href="{{ route('register') }}">Register</a>
-				                	</li><!--/.search-->
 				                	<li >
                                         <a href="{{ route('login') }}">Login</a>
 				                	</li><!--/.search-->
@@ -249,39 +215,19 @@
 
 		<!--sofa-collection start -->
 		<section id="sofa-collection">
-			<div class="owl-carousel owl-theme" id="collection-carousel">
 				<div class="sofa-collection collectionbg1">
 					<div class="container">
 						<div class="sofa-collection-txt">
-							<h2>unlimited sofa collection</h2>
+							<h2>Pelatihan Painting</h2>
 							<p>
 								With a good sofa, it’s like a good dress or suit. It must appeal to you and in the end it has to fit you well, not too small, not too big. Therfore, UNLIMITED is available in so many sizes and designs. To fit you and your home.								</p>
-							<div class="sofa-collection-price">
-								<h4>strting from <span>Rp. 1000000,00.</span></h4>
-							</div>
-							<button class="btn-cart welcome-add-cart sofa-collection-btn" onclick="window.location.href='#'">
-								view more
+							<button class="btn-cart welcome-add-cart sofa-collection-btn" onclick="window.location.href='#new-arrivals'">
+								info Pelatihan
 							</button>
 						</div>
 					</div>
 				</div><!--/.sofa-collection-->
-				<div class="sofa-collection collectionbg2">
-					<div class="container">
-						<div class="sofa-collection-txt">
-							<h2>unlimited dainning table collection</h2>
-							<p>
-							The value of a high-class piece of furniture is deﬁned by the perfect synthesis of maximum seating comfort, i.e. high practical value, long lasting beauty and handcrafted quality. With its sustainable production from the best materials UNLIMITED consistently emphasises its premium standard in each of these facets, The results are sofas and armchairs made for real life.							</p>
-							<div class="sofa-collection-price">
-								<h4>strting from <span>Rp. 900000,00.</span></h4>
-							</div>
-							<button class="btn-cart welcome-add-cart sofa-collection-btn" onclick="window.location.href='#'">
-								view more
-							</button>
-						</div>
-					</div>
-				</div><!--/.sofa-collection-->
-			</div><!--/.collection-carousel-->
-
+				
 		</section><br><!--/.sofa-collection-->
 		<!--sofa-collection end -->
 

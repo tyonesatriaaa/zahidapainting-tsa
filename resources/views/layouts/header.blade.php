@@ -29,7 +29,7 @@
 
 
   <nav class="navbar navbar-expand-lg navbar-default">
-    <a class="navbar-brand logo-navbar" href="#" style="font-size: 25px; margin-left:25px;">KMS.
+    <a class="navbar-brand logo-navbar" href="#" style="font-size: 25px; margin-left:25px;">Zahida Customer
         <!-- {{-- <img src="{{asset('bootstrap/sibahome.png')}}" width="150" height="40" class="d-inline-block align-top" alt=""> --}} -->
 
   </a>
