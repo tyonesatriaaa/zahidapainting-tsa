@@ -112,6 +112,9 @@ https://templatemo.com/tm-559-zay-shop
                             </div>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="{{ route('welcome') }}">Halaman Utama</a>
+                            </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="{{ route('pesanan') }}">Pesanan</a>
                         </li>
                     </ul>
