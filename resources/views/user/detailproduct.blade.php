@@ -217,34 +217,30 @@
         <div class="container">
             <div class="row">
 
-
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Kms. Furniture</h2>
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Zahida Painting</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <i class="fas fa-map-marker-alt fa-fw"></i>
-                            Jl. Untung Suropati No.92, Klangon, Kec. Bojonegoro, Kabupaten Bojonegoro, Jawa Timur 62115
+                            Jl. Kh. Mansyur No.58, Ledok Kulon Tiga, Ledok Wetan, Kec. Bojonegoro, Kabupaten Bojonegoro, Jawa Timur 62112
                         </li>
                         <li>
                             <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none" href="tel:010-020-0340">0821-3112-5123</a>
+                            <a class="text-decoration-none" href="tel:0821-1112-8648">0821-1112-8648</a>
                         </li>
                         <li>
                             <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="mailto:info@company.com">Yudhaerian@gmail.com</a>
+                            <a class="text-decoration-none" href="mailto:zahidapainting01@gmail.com">zahidapainting01@gmail.com</a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Collection</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Kitchen</a></li>
-                        <li><a class="text-decoration-none" href="#">Living room</a></li>
-                        <li><a class="text-decoration-none" href="#">Bathroom</a></li>
-                        <li><a class="text-decoration-none" href="#">Cafe</a></li>
-                        <li><a class="text-decoration-none" href="#">Office</a></li>
-                         <li><a class="text-decoration-none" href="#">Bedroom</a></li>
 
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Kategori</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Tas dan Dompet</a></li>
+                        <li><a class="text-decoration-none" href="#">Dress</a></li>
+                        <li><a class="text-decoration-none" href="#">Kebaya</a></li>
                     </ul>
                 </div>
 
@@ -267,16 +263,16 @@
                 <div class="col-auto me-auto">
                     <ul class="list-inline text-left footer-icons">
                         <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.facebook.com/zahida.hidayah.31/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                         </li>
                         <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/zahida_painting/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
                         </li>
                         <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.tiktok.com/@zahidapainting_01"><i class="fab fa-tiktok fa-lg fa-fw"></i></a>
                         </li>
                         <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                            <a class="text-light text-decoration-none" target="_blank" href="http://wa.me/+6282111128648"><i class="fab fa-whatsapp fa-lg fa-fw"></i></a>
                         </li>
                     </ul>
                 </div>

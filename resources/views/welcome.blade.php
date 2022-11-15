@@ -167,7 +167,7 @@
 		<section id="new-arrivals" class="new-arrivals">
 			<div class="container">
 				<div class="section-header">
-					<h2>Produk Baru</h2>
+					<h2>Produk Kami</h2>
                 </br></br></br>
                     @foreach($products->chunk(4) as $chunk)
 
@@ -182,7 +182,7 @@
                                     <img src="{{asset('storage/img/'.$produk->image1)}}"  alt="new-arrivals images"/>
                                     <div class="single-new-arrival-bg-overlay"></div>
                                     <div class="sale bg-1">
-                                        <p>New</p>
+                                        <p>Sale</p>
                                     </div>
                                     <div class="new-arrival-cart">
 

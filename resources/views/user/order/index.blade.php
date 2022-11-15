@@ -39,7 +39,6 @@
                 <thead class="thead">
                 <tr>
                 <th>Id</th>
-                <th>Down Payment</th>
                 <th>Total Harga</th>
                 <th>Order Date</th>
                 <th>Status Order</th>
@@ -53,7 +52,6 @@
                 @foreach ($order as $orders)
                 <tr>
                 <td>{{ $orders->id }}</td>
-                <td>{{ $orders->down_payment }}</td>
                 <td>{{ $orders->total_cost }}</td>
                 <td>{{ $orders->order_date }}</td>
                 <td>{{ $orders->order_status }}</td>
@@ -91,5 +89,7 @@
             </div>
         </div>
         </div>
+
+    
 
 @endsection

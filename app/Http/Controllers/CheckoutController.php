@@ -53,14 +53,14 @@ class CheckoutController extends Controller
 
         $randomNumber = random_int(1, 999);
 
-        $totalharga = $harga * 0.5 + $randomNumber;
+        $totalharga = $harga;
 
 
         $order = new Order;
         $order->user_id = $request->get('user_id');
         $order->address_id = $request->get('alamat_id');
         $order->total_cost = $request->get('total_cost');
-        $order->down_payment = $totalharga;
+        $order->payment = $totalharga;
         $order->order_date = $dattenow;
         $order->order_status = 'Menunggu Konfirmasi';
         $order->save();

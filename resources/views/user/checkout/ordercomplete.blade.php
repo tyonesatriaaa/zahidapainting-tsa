@@ -26,8 +26,8 @@
             <div class="col-sm-10 offset-sm-1 text-center">
                 <p class="icon-addcart"><span><i class="fas fa-check"></i></span></p>
                 <h2 class="mb-4">Terima kasih telah membeli, pesanan anda selesai</h2>
-                <h2 class="mb-4">Jumlah yang harus dibayarkan : <strong class='money'>{{ $order->down_payment }}</strong></h2>
-                <h2 class="mb-4">No Rekening BCA <strong> 00289119 </strong> A/N KMS Furniture</h2>
+                <h2 class="mb-4">Jumlah yang harus dibayarkan : <strong class='money'>{{ $order->payment }}</strong></h2>
+                <h2 class="mb-4">No Rekening BRI <strong> 294857738403 </strong> A/N Zahida Painting</h2>
                 <h4 class="mb-4">Setelah sukses melakukan pembayaran silahkan upload bukti pembayaran</h4>
 
                 <p>
