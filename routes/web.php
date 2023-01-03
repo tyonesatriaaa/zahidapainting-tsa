@@ -44,10 +44,8 @@ Route::get('/ordercomplete', [App\Http\Controllers\CheckoutController::class, 'o
 
 //Kategori
 
-Route::get('/dress', 'HomeController@dress')->name('dress');
-
-Route::get('/tasdandompet', 'HomeController@tasdandompet')->name('tasdandompet');
-Route::get('/kebaya', 'HomeController@kebaya')->name('kebaya');
+Route::get('/lurik', 'HomeController@lurik')->name('lurik');
+Route::get('/denim', 'HomeController@denim')->name('denim');
 
 Route::get('/murah', 'HomeController@murah')->name('murah');
 Route::get('/mahal', 'HomeController@mahal')->name('mahal');
@@ -89,11 +87,8 @@ Route::group(['prefix' => '/admin', 'namespace' => 'Admin', 'as' => 'admin.'], f
 
     Route::resource('penjualan', PenjualanController::class);
 
-
-    Route::get('/dress', 'HomeController@dress')->name('dress');
-
-    Route::get('/tasdandompet', 'HomeController@tasdandompet')->name('tasdandompet');
-    Route::get('/kebaya', 'HomeController@kebaya')->name('kebaya');
+    Route::get('/lurik', 'HomeController@lurik')->name('lurik');
+    Route::get('/denim', 'HomeController@denim')->name('denim');
 
     Route::get('/murah', 'HomeController@murah')->name('murah');
     Route::get('/mahal', 'HomeController@mahal')->name('mahal');

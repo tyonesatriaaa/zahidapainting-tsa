@@ -81,7 +81,7 @@
                                 </div>
                             </div>
                             <h4><a href="#">{{ $produk->name }}</a></h4>
-                            <p class="arrival-product-price">Rp. {{ $produk->price }}</p>
+                            <p class="arrival-product-price">{{ currency_IDR($produk->price) }}</p>
                         </div>
                     </div>
 

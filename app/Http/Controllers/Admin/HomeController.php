@@ -253,39 +253,26 @@ class HomeController extends Controller
         }
     }
 
-    public function dress()
-    {
-        //
-        $produk = Product::where("category", 2)
-        ->orderBy("id", "desc")
-        ->get();
-        $kategori = 'dress';
-
-        return view('admin.homekategori', compact('produk','kategori'));
-        // return view('admin.home');
-
-    }
-
-    public function tasdandompet()
+    public function lurik()
     {
         //
         $produk = Product::where("category", 1)
         ->orderBy("id", "desc")
         ->get();
-        $kategori = 'tas dan dompet';
+        $kategori = 'lurik';
+
         return view('admin.homekategori', compact('produk','kategori'));
         // return view('admin.home');
 
     }
 
-    public function kebaya()
+    public function denim()
     {
         //
-        $produk = Product::where("category", 3)
+        $produk = Product::where("category", 2)
         ->orderBy("id", "desc")
         ->get();
-        $kategori = 'kebaya';
-
+        $kategori = 'denim';
         return view('admin.homekategori', compact('produk','kategori'));
         // return view('admin.home');
 

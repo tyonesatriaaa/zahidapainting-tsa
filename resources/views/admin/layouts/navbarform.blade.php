@@ -74,9 +74,8 @@ https://templatemo.com/tm-559-zay-shop
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kategori</a>
                             <div class="dropdown-menu">
-                                <a href="{{ route('admin.kebaya') }}" class="dropdown-item">Kebaya</a>
-                                <a href="{{ route('admin.dress') }}" class="dropdown-item">Dress</a>
-                                <a href="{{ route('admin.tasdandompet') }}" class="dropdown-item">Tas dan dompet</a>
+                                <a href="{{ route('admin.lurik') }}" class="dropdown-item">Kebaya</a>
+                                <a href="{{ route('admin.denim') }}" class="dropdown-item">Dress</a>''
                             </div>
                         </li>
                         <li class="nav-item">
