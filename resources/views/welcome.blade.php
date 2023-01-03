@@ -195,7 +195,7 @@
                                     </div>
                                 </div>
                                 <h4><a href="{{ route('detailproduk', $produk->id) }}">{{ $produk->name }}</a></h4>
-                                <p class="arrival-product-price">Rp. {{ $produk->price }}</p>
+                                <p class="arrival-product-price">{{ currency_IDR($produk->price) }}</p>
                             </div>
                         </div>
 
