@@ -163,18 +163,14 @@
 
                                 {{-- <input type="hidden" name="product-title" value="Activewear"> --}}
                                 <div class="row">
-                                        <ul class="list-inline pb-8 pl-2">
-                                            <li class="list-inline-item">Color :
-                                                <input type="text" placeholder="Pilih warna" id="warna" name="warna" class=" @error('warna') is-invalid @enderror" style="width: auto; background-color:#E6E6E6; border: 2px solid #ced4da;  padding: 0.375rem 0.75rem;" required autocomplete="price">
-                                                @error('warna')
-                                                <span class="invalid-feedback" role="alert">
-                                                    <strong>{{ $message }}</strong>
-                                                </span>
-                                            @enderror
+                                    <li class="list-inline-item">Note :
+                                        <input type="text" name="catatan" placeholder="Permintaan Lain" id="product-size" style="width: auto; background-color:#E6E6E6; border: 2px solid #ced4da;  padding: 0.375rem 0.75rem;">
+                                    </li>
+                                </div>
+                                <input id="user_id" type="hidden" class="form-control @error('') is-invalid @enderror" name="product_id" value="{{ $products->id }}" required autocomplete="tentang_buku">
+                                <input id="id_product" type="hidden" class="form-control @error('') is-invalid @enderror" name="user_id" value="{{ Auth::user()->id }}" required autocomplete="tentang_buku">
 
-                                            </li>
 
-                                        </ul>
 
                                         <ul class="list-inline pt-3 pb-3 pl-2">
                                             <li class="list-inline-item text-right ">
@@ -185,13 +181,6 @@
                                             <li class="list-inline-item"><span class="badge bg-secondary" id="var-value">1</span></li>
                                             <li class="list-inline-item"><span class="btn btn-success" id="btn-plus">+</span></li>
                                         </ul>
-
-                                    <li class="list-inline-item">Note :
-                                        <input type="text" name="catatan" placeholder="Permintaan Lain" id="product-size" style="width: auto; background-color:#E6E6E6; border: 2px solid #ced4da;  padding: 0.375rem 0.75rem;">
-                                    </li>
-                                </div>
-                                <input id="user_id" type="hidden" class="form-control @error('') is-invalid @enderror" name="product_id" value="{{ $products->id }}" required autocomplete="tentang_buku">
-                                <input id="id_product" type="hidden" class="form-control @error('') is-invalid @enderror" name="user_id" value="{{ Auth::user()->id }}" required autocomplete="tentang_buku">
 
 
                             </br></br>

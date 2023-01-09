@@ -121,9 +121,6 @@
 											<div class="col-sm-9">
 												{{-- <input type="text" name="quantity" class="form-control input-number" placeholder="Your Coupon Number..."> --}}
 											</div>
-											<div class="col-sm-3">
-                                                <a class="btn btn-primary" href="{{ route('checkout') }}">Checkout</a>
-											</div>
 										</div>
 									</form>
 								</div>
@@ -136,6 +133,9 @@
 										<div class="grand-total">
 											<p><span><strong>Total Harga</span><span  class="money">{{ $purchases }} </span></p>
 										</div>
+                                        <div class="col-sm-3">
+                                            <a class="btn btn-primary" href="{{ route('checkout') }}"> Checkout </a>
+                                        </div>
 									</div>
 								</div>
 							</div>

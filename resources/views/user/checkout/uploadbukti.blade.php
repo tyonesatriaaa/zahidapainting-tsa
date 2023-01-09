@@ -13,8 +13,8 @@
                     <div class="row">
                         <div class="col-sm-10 offset-sm-1 text-center">
 
-                            <h2 class="mb-4">Jumlah Down Payment yang harus dibayarkan : <strong class='money'>{{ $order->down_payment }}</strong></h2>
-                            <h2 class="mb-4">No Rekening BCA <strong> 00289119 </strong> A/N Siti Nur Hidayah</h2>
+                            <h2 class="mb-4">Jumlah yang harus dibayarkan : <strong class='money'>{{ $order->down_payment }}</strong></h2>
+                            <h2 class="mb-4">No Rekening BRI <strong> 294857738403 </strong> A/N Zahida Painting</h2>
 
                         </div>
                     </div>

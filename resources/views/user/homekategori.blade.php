@@ -35,7 +35,6 @@
                         </ul>
                     </div>
 
-                    <div class="col-md-6 pb-4">
                         <div class="d-flex float-right">
                            <h3>Koleksi {{ $kategori }}</h3>
                         </div>

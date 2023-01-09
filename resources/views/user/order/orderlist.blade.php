@@ -57,7 +57,7 @@
 
                 <div class="product-cart d-flex">
                     <div class="one-forth">
-                        <div class="product-img" style="background-image: url({{asset('storage/img/'.$orders->keranjang->products->image1)}}); margin-left: 25px;">
+                        <div class="product-img" style="background-image: url({{asset('storage/img/'.$orders->keranjang->products->image28)}}); margin-left: 25px;">
                         </div>
                         <div class="display-tc">
                             <h3>{{ $orders->keranjang->products->name }}</h3>
@@ -117,7 +117,7 @@
                                     <div class="col-sm-3">
                                         <a class="btn btn-primary" href="{{ route('pesanan') }}">Kembali</a>
                                     </br></br>
-                                        <a class="btn btn-primary" href="http://wa.me/6289526076040">Layanan Konsultasi<i class="fab fa-whatsapp fa-lg fa-fw"></i>089526076040</a>
+                                        <a class="btn btn-primary" href="http://wa.me/6282111128648">Customer Service<i class="fab fa-whatsapp fa-lg fa-fw"></i>082111128648</a>
                                     </div>
                                 </div>
                             </form>
@@ -125,7 +125,7 @@
                         <div class="col-sm-4 text-center" style="margin-top: -6%">
                             <div class="total">
                                 <div class="sub">
-                                    <p><span>Bukti DP:</span> <span></span></p>
+                                    <p><span>Bukti Pembayaran:</span> <span></span></p>
                                     <p><span>
                                         <img id="myImg" src="{{asset('storage/img/'.$alamat->bukti)}}">
                                         <!-- The Modal -->
@@ -139,7 +139,6 @@
 
                                 </div>
                                 <div class="grand-total">
-                                    <p><span><strong>Down Payment</span><span  class="money">{{ $alamat->down_payment }}</span></p>
                                     <p><span><strong>Total Harga</span><span  class="money">{{ $alamat->total_cost }}</span></p>
                                 </div>
                             </div>
